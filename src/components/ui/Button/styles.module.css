@@ -1,0 +1,44 @@
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    transition: color var(--transition-duration),
+                background-color var(--transition-duration);
+}
+
+.accent {
+    height: 52px;
+    border-radius: 8px;
+    font-size: 14px;
+    padding-inline: 16px;
+    color: var(--color-gray-100);
+    background-color: var(--color-blue-dark);
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+@media (hover: hover) {
+    .accent:hover {
+        color: var(--color-gray-200);
+        background-color: var(--color-blue);
+    }
+
+    .transparent:hover {
+        color: var(--color-gray-200);
+    }
+}
+
+@media (hover: none) {
+    .accent:active {
+        color: var(--color-gray-200);
+    }
+
+    .transparent:active {
+        color: var(--color-gray-200);
+    }
+}

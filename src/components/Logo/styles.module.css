@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--color-blue);
+}
+
+.logo span {
+    color: var(--color-purple-dark);
+}

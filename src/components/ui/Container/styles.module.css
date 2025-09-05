@@ -1,0 +1,16 @@
+.container {
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-direction: inherit;
+    gap: inherit;
+    width: 740px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding-inline: 22px;
+    }
+}
